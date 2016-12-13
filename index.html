@@ -1,0 +1,44 @@
+<html>
+
+<head>
+   <link rel='stylesheet' href="templates/style.css"/>
+   <script type="text/javascript" src="libs/angular.min.js"></script>
+</head>
+
+  <body ng-app="mainApp" ng-controller="mainCtrl">
+   
+    <button ng-click="clearFields()">Clear And Fill</button>
+
+    <br/>
+<br/><br/>
+    <input type="number" mca-strict-input-number min="0" mca-session-save ng-model="num"> {{num}}<br/><br/>
+
+     <input mca-session-save ng-model="Me.email"/> {{email}}<br/><br/>
+
+     <input type="checkbox" mca-session-save ng-model="check"/>{{check}}<br/><br/>
+
+   <select ng-model="se">
+     <option>one</option>
+     <option>two</option>
+     </select>
+
+     {{se}}
+
+   <input type="radio" ng-model="a" mca-session-save ng-value="true"/>aBtn
+   <input type="radio" ng-model="a"  mca-session-save ng-value="false"/>bBtn
+    : {{a}}<br/><br/>
+
+    <input type="date" ng-model="date"/> {{date}}
+
+
+
+     
+
+   
+  </body>
+    
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="app_controller.js"></script>
+
+
+  </html>

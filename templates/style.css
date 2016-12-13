@@ -1,0 +1,32 @@
+.list {
+    border:1px solid #d9d9d9;
+    margin:10px 20px;
+    padding:11px;
+}
+
+.list .title {
+	background:#f9f9f9;
+	padding:11px;
+}
+.list .price {
+	border-top:1px solid #d9d9d9;
+}
+
+
+.grid {
+	display:inline-block;
+	width:200px;
+	float:left;
+	height:300px;
+    border:1px solid #d9d9d9;
+    margin:10px 20px;
+    padding:11px;
+}
+
+.grid .title {
+	background:#f9f9f9;
+	padding:11px;
+}
+.grid .price {
+	border-top:1px solid #d9d9d9;
+}
